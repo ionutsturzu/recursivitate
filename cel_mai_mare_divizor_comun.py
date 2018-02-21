@@ -6,4 +6,5 @@ def cmmdc(a,b):
         return 1
     print(b)
     return cmmdc(b,r)
-print(cmmdc(216,28))
+if __name__ == '__main__':
+    print(cmmdc(216,28))

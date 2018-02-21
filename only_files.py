@@ -4,4 +4,5 @@ def doar_fisier(nume_fisier):
             doar_fisier(nume_fisier + "/" + i)
         else:
             print(nume_fisier,i)
-doar_fisier(sys.argv[1])
+if __name__ == '__main__':
+    doar_fisier(sys.argv[1])
